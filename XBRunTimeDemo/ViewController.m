@@ -6,6 +6,17 @@
 //  Copyright © 2019 Sky. All rights reserved.
 //  https://www.jianshu.com/p/bcfb67089b2b, https://www.cnblogs.com/someonelikeyou/p/8560156.html, https://www.jianshu.com/p/6ebda3cd8052, http://yulingtianxia.com/blog/2016/06/15/Objective-C-Message-Sending-and-Forwarding/
 
+/**
+ Get the type from a Type-Encoding string.
+ 
+ @discussion See also:
+ https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/ObjCRuntimeGuide/Articles/ocrtTypeEncodings.html
+ https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/ObjCRuntimeGuide/Articles/ocrtPropertyIntrospection.html
+ 
+ @param typeEncoding  A Type-Encoding string.
+ @return The encoding type.
+ */
+
 #import "ViewController.h"
 #import "Classes/ClassController.h"
 #import "Classes/MemberVariablesController.h"
