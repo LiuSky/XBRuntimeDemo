@@ -11,6 +11,7 @@
 		3330B4DA21DF08A700737C18 /* MemberVariablesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3330B4D921DF08A700737C18 /* MemberVariablesController.m */; };
 		3330B4DD21DF218A00737C18 /* AttributeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3330B4DC21DF218A00737C18 /* AttributeController.m */; };
 		3330B4E021DF22B800737C18 /* MethodController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3330B4DF21DF22B800737C18 /* MethodController.m */; };
+		3335550A22276AB7001E2D59 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 3335550922276AB7001E2D59 /* Person.m */; };
 		337D750A21DC56E600DC4631 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 337D750921DC56E600DC4631 /* AppDelegate.m */; };
 		337D750D21DC56E600DC4631 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 337D750C21DC56E600DC4631 /* ViewController.m */; };
 		337D751021DC56E600DC4631 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 337D750E21DC56E600DC4631 /* Main.storyboard */; };
@@ -28,6 +29,8 @@
 		3330B4DC21DF218A00737C18 /* AttributeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AttributeController.m; sourceTree = "<group>"; };
 		3330B4DE21DF22B800737C18 /* MethodController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MethodController.h; sourceTree = "<group>"; };
 		3330B4DF21DF22B800737C18 /* MethodController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MethodController.m; sourceTree = "<group>"; };
+		3335550822276AB7001E2D59 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		3335550922276AB7001E2D59 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		337D750521DC56E600DC4631 /* XBRunTimeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XBRunTimeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		337D750821DC56E600DC4631 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		337D750921DC56E600DC4631 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -95,6 +98,8 @@
 				3330B4DC21DF218A00737C18 /* AttributeController.m */,
 				3330B4DE21DF22B800737C18 /* MethodController.h */,
 				3330B4DF21DF22B800737C18 /* MethodController.m */,
+				3335550822276AB7001E2D59 /* Person.h */,
+				3335550922276AB7001E2D59 /* Person.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -171,6 +176,7 @@
 			files = (
 				3330B4DA21DF08A700737C18 /* MemberVariablesController.m in Sources */,
 				3330B4E021DF22B800737C18 /* MethodController.m in Sources */,
+				3335550A22276AB7001E2D59 /* Person.m in Sources */,
 				3330B4DD21DF218A00737C18 /* AttributeController.m in Sources */,
 				3330B4D721DF015900737C18 /* ClassController.m in Sources */,
 				337D750D21DC56E600DC4631 /* ViewController.m in Sources */,

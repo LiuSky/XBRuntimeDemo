@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "Classes/ClassController.h"
 #import "Classes/MemberVariablesController.h"
+#import "Classes/AttributeController.h"
 
 
 @interface ViewController ()<UITableViewDataSource, UITableViewDelegate>
@@ -48,6 +49,11 @@
             [self.navigationController pushViewController:vc animated:true];
         }
             break;
+            case 2: {
+                AttributeController *vc = [AttributeController new];
+                [self.navigationController pushViewController:vc animated:true];
+            }
+            break;
         default:
             break;
     }
@@ -72,7 +78,8 @@
 -(NSArray *)array {
     if (!_array) {
         _array = @[@"类Demo",
-                   @"成员变量Demo"];
+                   @"成员变量Demo",
+                   @"获取类的所有属性Demo"];
     }
     return _array;
 }
